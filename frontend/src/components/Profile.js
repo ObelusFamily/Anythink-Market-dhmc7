@@ -127,7 +127,7 @@ class Profile extends React.Component {
       <div className="profile-page">
         <div className="container">
           <div className="row p-4 text-center">
-            <div className="user-info col-xs-12 col-md-8 offset-md-2">
+            <div className="user-info col-sm-12 col-xs-12 col-md-8 offset-md-2">
               <img
                 src={profile.image}
                 className="user-img"
@@ -149,7 +149,7 @@ class Profile extends React.Component {
 
         <div className="container">
           <div className="row py-4">
-            <div className="col-xs-12 col-md-10 offset-md-1">
+            <div className="col-sm-12 col-xs-12 col-md-10 offset-md-1">
               <div className="items-toggle">{this.renderTabs()}</div>
 
               <ItemList
